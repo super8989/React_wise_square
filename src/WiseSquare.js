@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './WiseSquare.css';
 
 class WiseSquare extends Component {
     dispenseWisdom() {
@@ -16,7 +17,7 @@ class WiseSquare extends Component {
 
     render() {
         return (
-            <div className="WiseSquare">🤓</div>
+            <div className="WiseSquare" onMouseEnter={this.dispenseWisdom}>🤓</div>
         )
     }
 }
