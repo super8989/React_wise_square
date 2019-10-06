@@ -4,7 +4,11 @@
     align-items: center;
     width: 2em;
     height: 2em;
-    background-color: pink;
+    background-color: lightblue;
     font-size: 100px;
     margin: auto;
+}
+
+.WiseSquare:hover {
+    background-color: lightgreen;
 }
