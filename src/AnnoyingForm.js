@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 
 class AnnoyingForm extends Component {
-    handleKeyUp() {
-        alert("You Typed Something")
+    handleKeyUp(evt) {        
+        if (evt.keyCode === 56) {
+            alert("*** I love the * character ***")
+        } else {
+            alert("Boo");
+        }
     }
 
     render() {
